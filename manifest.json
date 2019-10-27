@@ -1,0 +1,24 @@
+{
+	"name": "TL;DR",
+	"version": "1.0",
+	"description": "Summarizes blocks of scary text you might encounter in the wild internet.",
+	"background": {
+    	"scripts": ["background.js"],
+    	"persistent": false
+	},
+	"commands": {
+		"create-summary": {
+			"suggested_key": { "default": "Alt+Shift+S" },
+			"description": "Create Summary"
+		}
+	},
+	"permissions":
+	   [
+	      "tabs",
+	      "notifications",
+	      "storage",
+	      "http://*/*",
+	      "https://*/*"
+	   ],
+	"manifest_version": 2
+}
